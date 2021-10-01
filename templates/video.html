@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/stylevideo.css' %}">
+    
+</head>
+
+
+<body>
+    <div style="text-align:center;">
+    <div>
+        <h1>Reproductor de video</h1>
+        <p>reproductor simple basado en html y css hecho por Nicolas Vergara</p>
+        <a href="javascript:history.go(-1)">Volver atras</a>
+        <hr class="my-4">
+    </div>
+    
+    <div class="container" style="background-color: #D9AFD9;
+    background-image: linear-gradient(  0deg, #D9AFD9 0%, #97D9E1 100%);
+    ;">
+
+    <div class="video-links-container">
+        <a href="{% static 'images/liellas.mp4' %}" class="video-links">01. "Las liellas tratan de hacer streaming"</a>
+        <a href="{% static 'images/wishsong.mp4' %}" class="video-links">02. "Wish Song! Liella!"</a>
+        <a href="{% static 'images/Tiny stars.mp4' %}" class="video-links">03. "Tiny Stars! Liella!"</a>
+        <a href="{% static 'images/dive!.mp4' %}" class="video-links">04. "Dive! Setsuna Yuki"</a>
+        <a href="{% static 'images/hajimari.mp4' %}" class="video-links">05. "Hajimari wa Kimi no sora! Liella!"</a>
+        <a href="{% static 'images/start.mp4' %}" class="video-links">06. "START!! True dreams! Liella!"</a>
+        <a href="{% static 'images/nijiro.mp4' %}" class="video-links">07. "Nijiro Passions! Nijigasaki Gauken!"</a>
+        <a href="{% static 'images/Mirai ticket.mp4' %}" class="video-links">08. "Mirai Ticket! Aqours!"</a>
+        <a href="{% static 'images/daisuki.mp4' %}" class="video-links" controls>09. "Mirai Yohou Hallelujah! Kanon!"</a>
+        <a href="{% static 'images/mirai wa kaze.mp4' %}" class="video-links">10. "Mirai wa kaze no You ni! Liella!"</a>
+    </div>
+
+    <div class="video-container">
+        <video src="{% static 'images/liellas.mp4' %}" loop autoplay muted controls class="video">
+        
+        </video>
+        
+    </div>
+
+    </div>
+
+   </div>
+
+    <script type="text/javascript" src="{% static 'js/scriptsvideo.js' %}"></script>
+    
+
+</body>
+</html>

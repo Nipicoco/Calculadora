@@ -1,0 +1,43 @@
+.fondo1{
+	background-image: url(https://fondosmil.com/fondo/29364.jpg);
+    background-size: cover;
+}
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+textarea{
+	display: block;
+ 	margin-bottom: 8px;
+ 	margin-left:auto; 
+    margin-right:auto;
+    border-radius: 5px;
+    max-height: 35%;
+}
+
+
+
+
+.tabla1 td button{	
+ 	height: 40px;
+ 	width: 40px;
+    background-color: rgba(255,255,255, .70);
+    color: black;
+    margin: 0;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px 2px purple inset; 
+}
+
+
+.tabla1{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(https://i.pinimg.com/originals/e6/9d/66/e69d667d818ac16c54c62c6d8a1bab35.png);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+}
